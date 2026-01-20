@@ -98,8 +98,8 @@
 ### 4.1 Unit Tests
 - [x] Achieve >=95% line coverage across core modules.
 - [x] Achieve >=95% branch coverage across core modules.
-- [ ] Validate all event mappings.
-- [ ] Validate serialization/deserialization schemas.
+- [x] Validate all event mappings.
+- [x] Validate serialization/deserialization schemas.
 - [x] Validate rendering output for supported components.
 - [ ] Validate diffing logic for incremental updates.
 - [x] Validate EDT handoff and threading constraints.

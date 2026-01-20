@@ -44,6 +44,7 @@ tasks.check {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.2"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
     compileOnly("jakarta.servlet:jakarta.servlet-api:6.0.0")
     testImplementation("jakarta.servlet:jakarta.servlet-api:6.0.0")
 }
